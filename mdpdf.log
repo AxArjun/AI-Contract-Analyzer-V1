@@ -1,0 +1,69 @@
+    INFO: 2026-01-11 09:55:12,656:               log.py:   20: Logging to C:\Users\kavin\OneDrive\Desktop\INFOSYS\INFOSYS\mdpdf.log
+   DEBUG: 2026-01-11 09:55:12,657:               cli.py:  103: C:\Users\kavin\.gemini\antigravity\brain\bd28378b-7ebb-455c-9432-5834c65b7563\walkthrough.md
+    INFO: 2026-01-11 09:55:12,657:         converter.py:   14: C:\Users\kavin\.gemini\antigravity\brain\bd28378b-7ebb-455c-9432-5834c65b7563\walkthrough.md
+   DEBUG: 2026-01-11 09:55:12,660:      pdf_renderer.py:  470: printSegment: Streamlit UI Walkthrough
+   DEBUG: 2026-01-11 09:55:12,662:      pdf_renderer.py:  470: printSegment: I have successfully added a Streamlit-based frontend to your AI Contract Analyzer application.
+   DEBUG: 2026-01-11 09:55:12,664:      pdf_renderer.py:  470: printSegment: 1. Architecture
+   DEBUG: 2026-01-11 09:55:12,665:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-01-11 09:55:12,666:      pdf_renderer.py:  470: printSegment: Frontend
+   DEBUG: 2026-01-11 09:55:12,667:      pdf_renderer.py:  470: printSegment: : Streamlit application running on port 8501.
+   DEBUG: 2026-01-11 09:55:12,668:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-01-11 09:55:12,669:      pdf_renderer.py:  470: printSegment: Backend
+   DEBUG: 2026-01-11 09:55:12,669:      pdf_renderer.py:  470: printSegment: : Existing FastAPI service running on port 8000.
+   DEBUG: 2026-01-11 09:55:12,670:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-01-11 09:55:12,670:      pdf_renderer.py:  470: printSegment: Communication
+   DEBUG: 2026-01-11 09:55:12,671:      pdf_renderer.py:  470: printSegment: : The frontend sends 
+   DEBUG: 2026-01-11 09:55:12,671:      pdf_renderer.py:  470: printSegment: POST
+   DEBUG: 2026-01-11 09:55:12,673:      pdf_renderer.py:  470: printSegment:  requests with your PDF file to the backend
+   DEBUG: 2026-01-11 09:55:12,674:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-01-11 09:55:12,674:      pdf_renderer.py:  470: printSegment: s 
+   DEBUG: 2026-01-11 09:55:12,675:      pdf_renderer.py:  470: printSegment: /analyze
+   DEBUG: 2026-01-11 09:55:12,676:      pdf_renderer.py:  470: printSegment:  endpoint.
+   DEBUG: 2026-01-11 09:55:12,677:      pdf_renderer.py:  470: printSegment: 2. Changes Implemented
+   DEBUG: 2026-01-11 09:55:12,677:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-01-11 09:55:12,678:      pdf_renderer.py:  470: printSegment: Created Frontend Directory
+   DEBUG: 2026-01-11 09:55:12,678:      pdf_renderer.py:  470: printSegment: : 
+   DEBUG: 2026-01-11 09:55:12,679:      pdf_renderer.py:  470: printSegment: INFOSYS\frontend
+   DEBUG: 2026-01-11 09:55:12,679:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-01-11 09:55:12,679:      pdf_renderer.py:  470: printSegment: Dependencies
+   DEBUG: 2026-01-11 09:55:12,680:      pdf_renderer.py:  470: printSegment: : Added 
+   DEBUG: 2026-01-11 09:55:12,680:      pdf_renderer.py:  470: printSegment: frontend/requirements.txt
+   DEBUG: 2026-01-11 09:55:12,681:      pdf_renderer.py:  470: printSegment:  with 
+   DEBUG: 2026-01-11 09:55:12,681:      pdf_renderer.py:  470: printSegment: streamlit
+   DEBUG: 2026-01-11 09:55:12,683:      pdf_renderer.py:  470: printSegment:  and 
+   DEBUG: 2026-01-11 09:55:12,683:      pdf_renderer.py:  470: printSegment: requests
+   DEBUG: 2026-01-11 09:55:12,684:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2026-01-11 09:55:12,684:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-01-11 09:55:12,685:      pdf_renderer.py:  470: printSegment: Application Logic
+   DEBUG: 2026-01-11 09:55:12,686:      pdf_renderer.py:  470: printSegment: : Created 
+   DEBUG: 2026-01-11 09:55:12,686:      pdf_renderer.py:  470: printSegment: frontend/app.py
+   DEBUG: 2026-01-11 09:55:12,687:      pdf_renderer.py:  470: printSegment:  to handle file upload and display results.
+   DEBUG: 2026-01-11 09:55:12,688:      pdf_renderer.py:  470: printSegment: 3. Verification
+   DEBUG: 2026-01-11 09:55:12,689:      pdf_renderer.py:  470: printSegment: You successfully ran the application and verified it with the following screenshots:
+   DEBUG: 2026-01-11 09:55:12,690:      pdf_renderer.py:  470: printSegment: Configuration 
+   DEBUG: 2026-01-11 09:55:12,690:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2026-01-11 09:55:12,690:      pdf_renderer.py:  470: printSegment:  Upload
+   DEBUG: 2026-01-11 09:55:12,690:      pdf_renderer.py:  470: printSegment: The UI correctly shows the upload interface and file status:
+   DEBUG: 2026-01-11 09:55:12,690:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-01-11 09:55:12,709:      pdf_renderer.py:  235: C:\Users\kavin\.gemini\antigravity\brain\bd28378b-7ebb-455c-9432-5834c65b7563\uploaded_image_0_1768105352883.png, 1024, 524
+   DEBUG: 2026-01-11 09:55:12,717:      pdf_renderer.py:  470: printSegment: Analysis Results
+   DEBUG: 2026-01-11 09:55:12,717:      pdf_renderer.py:  470: printSegment: The application successfully communicated with the backend and displayed the JSON analysis results:
+   DEBUG: 2026-01-11 09:55:12,717:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-01-11 09:55:12,719:      pdf_renderer.py:  235: C:\Users\kavin\.gemini\antigravity\brain\bd28378b-7ebb-455c-9432-5834c65b7563\uploaded_image_1_1768105352883.png, 1024, 575
+   DEBUG: 2026-01-11 09:55:12,727:      pdf_renderer.py:  470: printSegment: 4. How to Run Next Time
+   DEBUG: 2026-01-11 09:55:12,727:      pdf_renderer.py:  470: printSegment: Terminal 1: Backend
+   DEBUG: 2026-01-11 09:55:12,727:      pdf_renderer.py:  470: printSegment: cd INFOSYS\INFOSYS\backend
+   DEBUG: 2026-01-11 09:55:12,727:      pdf_renderer.py:  470: printSegment: # Activate venv if needed
+   DEBUG: 2026-01-11 09:55:12,730:      pdf_renderer.py:  470: printSegment: uvicorn app.main:app --reload
+   DEBUG: 2026-01-11 09:55:12,730:      pdf_renderer.py:  470: printSegment: Terminal 2: Frontend
+   DEBUG: 2026-01-11 09:55:12,730:      pdf_renderer.py:  470: printSegment: cd INFOSYS\INFOSYS\frontend
+   DEBUG: 2026-01-11 09:55:12,730:      pdf_renderer.py:  470: printSegment: streamlit run app.py
+   DEBUG: 2026-01-11 09:55:12,730:      pdf_renderer.py:   53: 0, [1, 'Streamlit UI Walkthrough', 1, 68.0]
+   DEBUG: 2026-01-11 09:55:12,730:      pdf_renderer.py:   53: 1, [2, '1. Architecture', 1, 124.0]
+   DEBUG: 2026-01-11 09:55:12,730:      pdf_renderer.py:   53: 2, [2, '2. Changes Implemented', 1, 217.60000000000002]
+   DEBUG: 2026-01-11 09:55:12,730:      pdf_renderer.py:   53: 3, [2, '3. Verification', 1, 299.20000000000005]
+   DEBUG: 2026-01-11 09:55:12,730:      pdf_renderer.py:   53: 4, [3, 'Configuration ', 1, 350.40000000000003]
+   DEBUG: 2026-01-11 09:55:12,730:      pdf_renderer.py:   53: 5, [3, 'Analysis Results', 1, 660.6843749999999]
+   DEBUG: 2026-01-11 09:55:12,730:      pdf_renderer.py:   53: 6, [2, '4. How to Run Next Time', 2, 385.59296875]
+   DEBUG: 2026-01-11 09:55:12,730:      pdf_renderer.py:   53: 7, [3, 'Terminal 1: Backend', 2, 418.79296875]
+   DEBUG: 2026-01-11 09:55:12,730:      pdf_renderer.py:   53: 8, [3, 'Terminal 2: Frontend', 2, 495.59296874999995]
