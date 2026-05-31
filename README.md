@@ -1,63 +1,278 @@
-# ⚖️ AI Contract Analyzer
+# ⚖️ AI Contract Analyzer using OCR
 
-A professional AI-powered tool to analyze legal contracts using Multi-Agent systems.
+> AI-powered legal document intelligence platform that extracts, analyzes, and summarizes contracts using OCR, Natural Language Processing, and automated risk detection.
 
-## 📋 Prerequisites
-- **Python 3.10+** must be installed on the system.
+---
 
-## 🚀 Setup Instructions
+## 🚀 Overview
 
-### 1. Unzip the Project
-Extract the zip file to a folder on your computer.
+AI Contract Analyzer is an intelligent document processing system designed to automate legal contract review.
 
-### 2. Set up the Environment
-It is recommended to create a virtual environment first.
+The platform extracts text from scanned contracts and PDF documents using OCR, processes legal clauses through NLP pipelines, and generates structured insights that help users quickly understand obligations, risks, terms, and critical contract information.
 
-**Using default Python venv:**
-```powershell
+Instead of manually reviewing lengthy legal documents, users can upload a contract and receive AI-generated analysis within seconds.
+
+---
+
+## 🎯 Problem Statement
+
+Contract review is often:
+
+* Time-consuming
+* Error-prone
+* Expensive
+* Difficult for non-legal users
+
+Organizations frequently deal with:
+
+* Vendor agreements
+* Employment contracts
+* NDAs
+* Service-level agreements
+* Procurement documents
+
+Manually identifying important clauses such as payment terms, termination conditions, liabilities, confidentiality agreements, and penalties can take hours.
+
+This project automates that workflow using Artificial Intelligence and Optical Character Recognition.
+
+---
+
+## 💡 Key Features
+
+### 📄 OCR-Based Document Extraction
+
+Extracts text from:
+
+* Scanned PDFs
+* Image-based contracts
+* Legal document screenshots
+
+### 🤖 AI-Powered Contract Analysis
+
+Automatically identifies:
+
+* Parties involved
+* Contract duration
+* Payment terms
+* Termination clauses
+* Liability clauses
+* Confidentiality agreements
+* Obligations and responsibilities
+
+### ⚠️ Risk Detection
+
+Highlights potentially risky clauses such as:
+
+* Unlimited liability
+* Auto-renewal conditions
+* Hidden penalties
+* Ambiguous obligations
+
+### 📊 Structured Insights
+
+Converts unstructured legal documents into:
+
+* Summaries
+* Key points
+* Risk reports
+* Actionable recommendations
+
+### 🔍 Searchable Analysis
+
+Enables quick navigation across extracted contract information.
+
+---
+
+## 🏗️ System Architecture
+
+```text
+                ┌─────────────────────┐
+                │ Contract Upload     │
+                └──────────┬──────────┘
+                           │
+                           ▼
+                ┌─────────────────────┐
+                │ OCR Processing      │
+                │ Text Extraction     │
+                └──────────┬──────────┘
+                           │
+                           ▼
+                ┌─────────────────────┐
+                │ NLP Pipeline        │
+                │ Clause Detection    │
+                └──────────┬──────────┘
+                           │
+                           ▼
+                ┌─────────────────────┐
+                │ Risk Analysis       │
+                │ Classification      │
+                └──────────┬──────────┘
+                           │
+                           ▼
+                ┌─────────────────────┐
+                │ AI Insights Engine  │
+                │ Summary Generation  │
+                └──────────┬──────────┘
+                           │
+                           ▼
+                ┌─────────────────────┐
+                │ User Dashboard      │
+                └─────────────────────┘
+```
+
+---
+
+## 🛠️ Technology Stack
+
+### Backend
+
+* Python
+* Flask
+
+### Artificial Intelligence
+
+* Natural Language Processing (NLP)
+* OCR Engine
+* Text Classification
+* Clause Extraction
+
+### Frontend
+
+* HTML
+* CSS
+* JavaScript
+
+### Database
+
+* SQLite
+
+### Development Tools
+
+* Git
+* GitHub
+* VS Code
+
+---
+
+## 📂 Project Structure
+
+```bash
+AI-CONTRACT-ANALYSER-USING-OCR/
+│
+├── app/
+│   ├── routes/
+│   ├── models/
+│   ├── templates/
+│   ├── static/
+│
+├── uploads/
+├── database/
+├── requirements.txt
+├── run.py
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/AxArjun/AI-CONTRACT-ANALYSER-USING-OCR.git
+cd AI-CONTRACT-ANALYSER-USING-OCR
+```
+
+### Create Virtual Environment
+
+```bash
 python -m venv venv
-.\venv\Scripts\activate
 ```
 
-### 3. Install Dependencies
-Install all required libraries for both backend and frontend.
+### Activate Environment
 
-```powershell
-pip install -r frontend/requirements.txt
-pip install -r backend/requirements.txt
+Windows:
+
+```bash
+venv\Scripts\activate
 ```
 
-### 4. Configure API Key
-1.  Open `backend/.env` file.
-2.  Add your Google Gemini API Key:
-    ```
-    GEMINI_API_KEY="your_api_key_here"
-    ```
+Linux / Mac:
+
+```bash
+source venv/bin/activate
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run Application
+
+```bash
+python run.py
+```
 
 ---
 
-## ▶️ How to Run
+## 📈 Potential Use Cases
 
-You need to run the **Backend** and **Frontend** in two separate terminals.
+### Legal Teams
 
-### Terminal 1: Backend (FastAPI)
-```powershell
-cd INFOSYS/backend
-uvicorn app.main:app --reload
-```
-*You should see "Uvicorn running on http://127.0.0.1:8000"*
+Accelerate contract review workflows.
 
-### Terminal 2: Frontend (Streamlit)
-```powershell
-cd INFOSYS/frontend
-streamlit run app.py
-```
-*The app will automatically open in your browser at http://localhost:8501*
+### Startups
+
+Understand agreements before signing.
+
+### Procurement Departments
+
+Analyze vendor contracts.
+
+### HR Teams
+
+Review employment agreements.
+
+### Enterprises
+
+Automate large-scale document intelligence pipelines.
 
 ---
 
-## ✨ Features
-- **Legal Risk Analysis**: Identifies risky clauses.
-- **Compliance Check**: GDPR and regulatory checks.
-- **Session History**: Tracks analyzed files in the current session.
-- **Premium UI**: Light/Dark theme support with professional styling.
+## 🔮 Future Enhancements
+
+* LLM-based legal reasoning
+* Multi-agent contract review
+* RAG-powered legal knowledge retrieval
+* Contract comparison engine
+* Compliance validation
+* Cloud deployment
+* Role-based dashboards
+* Real-time collaboration
+
+---
+
+## 📊 Engineering Highlights
+
+* OCR-based text extraction pipeline
+* Automated clause identification
+* AI-driven risk assessment
+* Modular Flask architecture
+* Scalable document processing workflow
+* End-to-end legal document intelligence system
+
+---
+
+## 👨‍💻 Author
+
+**Arjun R K**
+
+GitHub: https://github.com/AxArjun
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
