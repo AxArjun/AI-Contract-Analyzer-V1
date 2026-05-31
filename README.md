@@ -269,6 +269,10 @@ Automate large-scale document intelligence pipelines.
 
 **Arjun R K**
 
+**K Vishal Gokul Bhora**
+
+**Kavin S**
+
 GitHub: https://github.com/AxArjun
 
 ---
